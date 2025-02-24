@@ -1,7 +1,6 @@
-import Image from 'next/image';
-import { IoBrowsersOutline, IoCalculator, IoFootball, IoLogoReact } from 'react-icons/io5';
-import { SidebarMenuItem } from './SidebarMenuItem';
-import { title } from 'process';
+import Image from "next/image";
+import { IoBrowsersOutline, IoCalculator, IoFootball, IoLogoReact } from "react-icons/io5";
+import { SidebarMenuItem } from "./SidebarMenuItem";
 
 const menuItems = [
     {

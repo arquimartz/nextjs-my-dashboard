@@ -1,5 +1,5 @@
-import { PokemonsResponse } from "@/components/pokemons/interfaces/pokemons-response";
-import { SimplePokemon } from "@/components/pokemons/interfaces/simple-pokemon";
+import { PokemonsResponse } from "@/types/pokemons/pokemons-response";
+import { SimplePokemon } from "@/types/pokemons/simple-pokemon";
 import Image from "next/image";
 
 const getPokemons = async (limit: number = 20, offset: number = 0): Promise<SimplePokemon[]> => {
