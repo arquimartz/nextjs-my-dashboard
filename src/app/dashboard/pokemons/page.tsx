@@ -12,6 +12,8 @@ const getPokemons = async (limit: number = 20, offset: number = 0): Promise<Simp
         name: pokemon.name,
     }));
 
+    // throw new Error('Error al cargar los pokemons');
+
     return pokemons;
 }
 
