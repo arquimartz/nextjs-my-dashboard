@@ -20,7 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const getPokemon = async (id: string): Promise<Pokemon> => {
     const pokemon = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`, {
-        cache: 'force-cache' // TODO: cambiar a 'no-store' para evitar caché
+        cache: 'force-cache', // TODO: cambiar a 'no-store' para evitar caché
+        //next: {
+        //    revalidate: 60 * 60, // 1 hora
+        //},
     })
         .then(res => res.json());
 
