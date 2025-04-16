@@ -12,7 +12,7 @@ export default function NotFound() {
                         Page Not Found
                     </div>
                     <button className="mt-5">
-                        <a
+                        <div
                             className="relative inline-block text-sm font-medium text-[#FF6A3D] group active:text-orange-500 focus:outline-none focus:ring"
                         >
                             <span
@@ -22,7 +22,7 @@ export default function NotFound() {
                             <span className="relative block px-8 py-3 bg-[#1A2238] border border-current">
                                 <Link href="/dashboard/main">Go Home</Link>
                             </span>
-                        </a>
+                        </div>
                     </button>
                 </main>
             </div>
